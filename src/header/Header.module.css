@@ -1,0 +1,17 @@
+.header {
+    height: 80px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* единицы измерения:
+1. Абсолютные (метры, пиксели)
+2. Относительные:
+(%) Берёт размеры у родителя
+(em) отталкиваемся от размера шрифта родителя
+(rem) отталкиваемся от размера шрифта рутового элемента
+рутовый элемент -- корневой элемент (html или body)
+(vh[viewHeight],vw[viewWidth]) -- зависит от монитора
+*/
