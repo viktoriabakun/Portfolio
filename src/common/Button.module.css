@@ -1,0 +1,13 @@
+.Button {
+    background-color: #4e4545;
+    padding: 4px 20px;
+    color: #e0e0e0;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.Button:active{
+    transform: scaleX(0.9) translateY(4px);
+}
