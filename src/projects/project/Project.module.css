@@ -1,0 +1,4 @@
+.project {
+    composes: skill from '../../skills/skill/Skill.module.css';
+    margin: 5px;
+}
