@@ -9,7 +9,7 @@
 }
 
 .title {
-background-color: #ffffff;
+    background-color: #ffffff;
     padding: 15px;
 }
 
@@ -19,11 +19,11 @@ background-color: #ffffff;
     flex-direction: column;
 }
 
-.contactForm>input{
+.contactForm > input {
     padding: 10px 20px;
 }
 
-.contactForm>textarea{
+.contactForm > textarea {
     height: 160px;
     padding: 20px;
 }
