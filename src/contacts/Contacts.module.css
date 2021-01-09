@@ -1,11 +1,11 @@
 .contactsBlock {
-    background-color: #efd93f;
+    background-color: #e3b92a;
 }
 
 .contactsContainer {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .title {
@@ -14,7 +14,7 @@
 }
 
 .contactForm {
-    width: 400px;
+    width: 280px;
     display: flex;
     flex-direction: column;
 }

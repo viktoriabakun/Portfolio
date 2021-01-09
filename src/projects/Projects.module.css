@@ -5,7 +5,7 @@
 }
 
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f6d8d8;
     flex-wrap: wrap;
 }

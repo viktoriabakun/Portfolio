@@ -7,7 +7,7 @@ function Contacts() {
     return (
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}> Contacts</h2>
+                <h2 className={s.title}>Contacts</h2>
                 <form className={s.contactForm}>
                     <input/>
                     <input/>

@@ -1,4 +1,23 @@
 .project {
     composes: skill from '../../skills/skill/Skill.module.css';
+    padding: 0;
     margin: 5px;
+}
+
+.projectTitle{
+    background-color: #d5c1ae;
+}
+
+.projectDescription {
+    background-color: #faa14f;
+}
+
+.projectImg{
+    background-color: #d07272;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
 }

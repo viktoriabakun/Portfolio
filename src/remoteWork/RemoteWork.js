@@ -7,7 +7,7 @@ function RemoteWork() {
     return (
         <div className={s.remoteBlock}>
             <div className={`${sContainer.container} ${s.remoteWorkContainer}`}>
-                <h2>I consider opportunities for remote work</h2>
+                <h2 className={s.remoteBlockText}>I consider opportunities for remote work</h2>
                 <Button buttonTitle={'Hire me'}/>
             </div>
 

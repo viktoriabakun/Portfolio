@@ -1,9 +1,13 @@
 .remoteBlock {
-    background-color: #a2cd53;
+    background-color: #c1db77;
 }
 
 .remoteWorkContainer {
     flex-direction: column;
     justify-content: space-evenly;
     height: 150px;
+}
+
+.remoteBlockText {
+    background-color: #b796d9;
 }
