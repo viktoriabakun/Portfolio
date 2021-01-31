@@ -1,17 +1,27 @@
-.mainBlock{
+.mainBlock {
     height: 100vh;
-    background-color: #ffdebc;
+    background-color: black;
+    margin: 15px 0;
 }
 
+.text {
+    width: 354px;
+    color: white;
+    border: 1px solid white;
+    padding: 30px;
+}
 
-
-.text{
-    width: 300px;
-    background-color: #d5c1ae;
+.text h1 {
+    font-family: 'Notable';
+    font-size: 60px;
+}
+.text p {
+    color: #B796D9;
+    font-weight: bold;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: darkkhaki;
+    background-color: #B796D9;
 }

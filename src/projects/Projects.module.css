@@ -5,12 +5,12 @@
 }
 
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #f6d8d8;
     flex-wrap: wrap;
+    margin: 15px 0;
 }
 
 .projectsContainer {
+    min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
 }

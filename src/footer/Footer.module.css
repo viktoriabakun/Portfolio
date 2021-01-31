@@ -1,6 +1,7 @@
 .footerBlock {
-    background-color: #ffdebc;
+    background-color: black;
     min-height: 30vh;
+    margin: 15px 0;
 }
 
 .footerContainer {

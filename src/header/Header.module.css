@@ -1,14 +1,17 @@
 .header {
     min-height: 80px;
-    background-color: chocolate;
+    background-color: black;
     display: flex;
     align-items: center;
+    margin: 15px 0;
 }
 
 .container {
     display: flex;
     justify-content: flex-end!important;
 }
+
+
 /* единицы измерения:
 1. Абсолютные (метры, пиксели)
 2. Относительные:

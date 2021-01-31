@@ -1,12 +1,11 @@
 import React from 'react'
 import s from './Project.module.css'
-import Button from "../../common/Button";
 
 function Project(props) {
     return (
         <div className={s.project}>
             <div className={s.projectImg}>
-                <Button buttonTitle={'view more'}/>
+                <a className={s.viewMore} href='/'>view more</a>
             </div>
 
             <h4 className={s.projectTitle}>{props.title}</h4>

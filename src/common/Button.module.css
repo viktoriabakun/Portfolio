@@ -5,9 +5,10 @@
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .Button:active{
-    transform: scaleX(0.9) translateY(4px);
+    transform: scaleX(0.4) translateY(5px);
 }

@@ -21,3 +21,8 @@
     align-items: center;
 ;
 }
+
+.viewMore{
+    text-decoration: none;
+    color: white;
+}

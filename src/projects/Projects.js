@@ -7,7 +7,9 @@ function Projects() {
     return (
         <div className={s.projectsBlock}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
-                <h2 className={s.title}> My projects</h2>
+                <div className={s.title}>
+                    <h2>Projects</h2>
+                </div>
                 <div className={s.projects}>
                     <Project title={'Social network'}
                              description={'A social networking service (also social networking site or social media) is an online platform which people use to build social networks or social relationships with other people who share similar personal or career interests, activities, backgrounds or real-life connections.'}/>

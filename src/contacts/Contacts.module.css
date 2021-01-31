@@ -1,5 +1,6 @@
 .contactsBlock {
-    background-color: #e3b92a;
+    background-color: black;
+    margin: 15px 0;
 }
 
 .contactsContainer {
@@ -14,7 +15,7 @@
 }
 
 .contactForm {
-    width: 280px;
+    min-width: 280px;
     display: flex;
     flex-direction: column;
 }

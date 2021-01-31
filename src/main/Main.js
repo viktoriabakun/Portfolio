@@ -8,8 +8,7 @@ function Main() {
         <div className={s.mainBlock}>
             <div className={sContainer.container}>
             <div className={s.text}>
-                <span>Hi there</span>
-                <h1>I am Viktoryia Bakun</h1>
+                <h1>Viktoryia Bakun</h1>
                 <p>Frontend Developer</p>
             </div>
             <div className={s.photo}>
