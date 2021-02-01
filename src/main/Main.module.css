@@ -5,19 +5,30 @@
 }
 
 .text {
-    width: 354px;
+    width: 480px;
     color: white;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding: 30px;
 }
 
 .text h1 {
-    font-family: 'Notable';
-    font-size: 60px;
+    font-family: 'ArchivoBlack';
+    font-size: 70px;
+    margin: 5px;
+    text-transform: uppercase;
+    line-height: 80px;
 }
+
+.text h1 span{
+    color: black;
+    text-shadow: white 1px 1px 0, white -1px -1px 0,
+    white -1px 1px 0, white 1px -1px 0;
+}
+
 .text p {
-    color: #B796D9;
+    color: #BBBBBB;
     font-weight: bold;
+    margin: 0;
 }
 
 .photo {
