@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .projectsBlock {
@@ -16,6 +17,16 @@
 }
 
 .title {
-    background-color: #d5c1ae;
+    position: relative;
     padding: 5px;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }

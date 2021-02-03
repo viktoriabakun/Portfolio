@@ -8,8 +8,9 @@ function Main() {
         <div className={s.mainBlock}>
             <div className={sContainer.container}>
             <div className={s.text}>
+                <p>Frontend Developer</p>
                 <h1><span>Bakun</span> Viktoryia</h1>
-                <p>Frontend React & Redux Developer</p>
+
             </div>
             <div className={s.photo}>
 

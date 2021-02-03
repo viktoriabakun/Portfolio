@@ -2,12 +2,13 @@ import React from 'react'
 import s from './Contacts.module.css'
 import sContainer from '../common/styles/Container.module.css'
 import Button from "../common/Button";
+import Title from "../components/title/Title";
 
 function Contacts() {
     return (
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}>Contacts</h2>
+              <Title text='Contacts'/>
                 <form className={s.contactForm}>
                     <input/>
                     <input/>

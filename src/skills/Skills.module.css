@@ -1,10 +1,11 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: black;
+    background-color: #000000;
     margin: 15px 0;
 }
 
 .skillsContainer {
+    min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
 }

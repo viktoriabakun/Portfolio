@@ -7,6 +7,16 @@
   src: url('./fonts/ArchivoBlack-Regular.ttf')
 }
 
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('./fonts/RobotoCondensed-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('./fonts/RobotoCondensed-Regular.ttf')
+}
+
 
 body {
   margin: 0;
@@ -16,6 +26,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  color: white;
+  font-family: 'RobotoCondensed-Bold';
 }
 
 code {

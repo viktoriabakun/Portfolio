@@ -10,9 +10,6 @@
     align-items: center;
 }
 
-.title {
-background-color: #d07272;
-}
 
 .socialNetworks {
     width: 280px;
@@ -20,7 +17,6 @@ background-color: #d07272;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid;
 }
 
 .networkItem {
@@ -30,8 +26,4 @@ background-color: #d07272;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.copyright {
-    background-color: #a2cd53;
 }
