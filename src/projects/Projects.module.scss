@@ -1,32 +1,15 @@
-.projects {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
 .projectsBlock {
     flex-wrap: wrap;
     margin: 15px 0;
-}
-
-.projectsContainer {
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.title {
-    position: relative;
-    padding: 5px;
-}
-
-.title::after{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: white;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    .projectsContainer {
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        .projects {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+    }
 }

@@ -1,3 +1,5 @@
+@import "common/styles/sass/variables";
+
 * {
   box-sizing: border-box;
 }
@@ -25,8 +27,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
+  background-color: $backgroundColor;
+  color: $mainTextColor;
   font-family: 'RobotoCondensed-Bold';
 }
 
