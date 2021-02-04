@@ -2,6 +2,7 @@
     height: 100vh;
     background-color: black;
     margin: 15px 0;
+    display: flex;
 }
 
 .text {
@@ -35,4 +36,41 @@
     width: 300px;
     height: 400px;
     background-color: #B796D9;
+}
+
+@media screen and (max-width: 977px){
+    .photo{
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .text h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 529px){
+    .photo{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 482px){
+    .text h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 405px){
+    .text{
+        padding: 5px;
+    }
+    .text h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .photo{
+        width: 280px;
+        height: 380px;
+    }
 }

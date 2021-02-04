@@ -7,7 +7,9 @@ function Skill(props) {
     return (
         <div className={s.skill}>
             <div className={s.icon}>
-                <FontAwesomeIcon icon={props.icon} size={'4x'} color={'#b796d9'}/>
+                <FontAwesomeIcon icon={props.icon}
+                                 size={'5x'}
+                                 color={'#b796d9'}/>
                 <img src={props.src}/>
             </div>
             <h3 className={s.skillTitle}>{props.title}</h3>

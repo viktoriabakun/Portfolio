@@ -1,8 +1,12 @@
 //@import '../../common/styles/sass/mixins';
 
 .project {
-  composes: skill from '../../skills/skill/Skill.module.css';
-  padding: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
   margin: 5px;
   position: relative;
 
@@ -43,15 +47,32 @@
   }
   .projectTitle {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .projectDescription {
     font-family: 'RobotoCondensed-Regular';
-    font-size: 15px;
+    font-size: 19px;
   }
 }
 
+@media screen and(max-width: 450px) {
+  .project{
+    width: 250px;
+    .projectImg{
+      width: 250px;
+    }
+    &::before{
+      width: 200px;
+    }
+    .projectTitle{
+      font-size: 23px;
+    }
+    .projectDescription{
+      font-size: 20px;
+    }
+  }
+}
 
 
 

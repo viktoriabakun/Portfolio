@@ -1,5 +1,5 @@
 .skill{
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,16 +8,50 @@
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .skillTitle {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .skillDescription {
     font-family: 'RobotoCondensed-Regular';
-    font-size: 15px;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1200px){
+    .skill{
+        width: 200px;
+    }
+    .skillTitle{
+        font-size: 20px;
+    }
+    .skillDescription{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 744px){
+    .skillTitle{
+        font-size: 23px;
+    }
+    .skillDescription{
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 502px){
+    .skill{
+        width: 350px;
+    }
+    .skillTitle{
+        font-size: 26px;
+    }
+    .skillDescription{
+        font-size: 22px;
+    }
 }

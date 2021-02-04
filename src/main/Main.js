@@ -12,10 +12,7 @@ function Main() {
                 <h1><span>Bakun</span> Viktoryia</h1>
 
             </div>
-            <div className={s.photo}>
-
-
-            </div>
+            <div className={s.photo}></div>
             </div>
         </div>
 

@@ -1,0 +1,17 @@
+import React from 'react'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import s from './Footer.module.css'
+
+
+function FooterIcon(props) {
+    return (
+        <div className={s.networkItem}>
+            <FontAwesomeIcon icon={props.icon}
+                             size={'4x'}
+                             color={'#b796d9'}
+            />
+        </div>
+       )
+}
+
+export default FooterIcon;
