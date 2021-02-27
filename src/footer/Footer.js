@@ -34,8 +34,7 @@ function Footer() {
                                          color={'#b796d9'}
                         />
                     </a>
-                    <a target={'blank'}
-                       href={'https://www.instagram.com/vusen_/?hl=ru'}>
+                    <a href={'#'}>
                         <FontAwesomeIcon icon={faInstagram}
                                          size={'2x'}
                                          color={'#b796d9'}
