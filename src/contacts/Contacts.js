@@ -8,7 +8,7 @@ import Title from "../components/title/Title";
 
 function Contacts() {
     return (
-        <Fade left>
+        <Fade>
         <div id='contacts' className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.contactsContainer}`}>
               <Title text='Contacts'/>

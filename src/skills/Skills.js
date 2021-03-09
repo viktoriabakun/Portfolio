@@ -23,43 +23,43 @@ function Skills() {
                             <Skill title={'React'}
                                    isIcon={true}
                                    icon={faReact}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'SPA, Functional components, Hooks, Material-UI, Forms, Routes, Pagination...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'Redux'}
                                    isIcon={true}
                                    icon={faSitemap}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'Thunk, ThunkCreator, Reducer, Hooks, Selectors, State Management, Immutability...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'REST API'}
                                    isIcon={true}
                                    icon={faServer}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'CRUD Operations, working with Axios library...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'TypeScript'}
                                    isIcon={false}
                                    src={typescript}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'Migrate projects from JS to TS, Generics, typeof, ReturnType, Enum...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'JavaScript'}
                                    isIcon={true}
                                    icon={faJs}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'Data Types, Functions, Loops, Currying, Closure, This, Array Methods, Recursion, EventLoop, Promise, Async-Await...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'HTML'}
                                    isIcon={true}
                                    icon={faHtml5}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'Landing Pages, Semantic tags, Forms...'}/>
                         </Fade>
                         <Fade left>
                             <Skill title={'Css'}
                                    isIcon={true}
                                    icon={faCss3Alt}
-                                   description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s...'}/>
+                                   description={'CSS3, CSS-Modules, Styled Components...'}/>
                         </Fade>
 
                     </div>

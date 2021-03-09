@@ -28,7 +28,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 0.4;
+      opacity: 0.3;
     }
 
     &:hover::before {
@@ -55,8 +55,16 @@
   }
 
   .projectDescription {
-    font-family: 'RobotoCondensed-Regular';
     font-size: 19px;
+  }
+
+  .projectTechnologies {
+    font-size: 19px;
+    margin: 7px;
+    .wordTechnologies{
+      color: #B796D9;
+      margin-right: 5px;
+    }
   }
 }
 

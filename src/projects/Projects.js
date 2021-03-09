@@ -7,6 +7,7 @@ import Title from '../components/title/Title';
 import todoImg from '../assets/img/todo_list.jpg'
 import socialImg from '../assets/img/social_network.jpg'
 import singoloImage from '../assets/img/singolo.jpg'
+import cardsImg from '../assets/img/cards.jpg'
 
 function Projects() {
 
@@ -19,6 +20,9 @@ function Projects() {
     const singoloImg = {
         backgroundImage: `url(${singoloImage})`
     }
+    const cards = {
+        backgroundImage: `url(${cardsImg})`
+    }
 
     return (
         <Fade>
@@ -27,18 +31,32 @@ function Projects() {
                 <Title text='Projects'/>
                 <div className={s.projects}>
                     <Project title={'Social network'}
-                             description={'A social networking service (also social networking site or social media) is an online platform which people use to build social networks or social relationships with other people who share similar personal or career interests, activities, backgrounds or real-life connections.'}
+                             href={'https://github.com/viktoriabakun/Social-Network-Samurai'}
+                             description={'A social networking service. An online platform for people to build social networks or social relationships with other people. '}
+                             technologies={'React, Redux, Redux-Form, REST API, Typescript, CSS-Modules'}
                              style={socialNetworkImg}
                     />
 
                     <Project title={'ToDoList'}
-                             description={'ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done” (GTD), Scheduling, and Collaboration'}
+                             href={'https://viktoriabakun.github.io/ToDoList/'}
+                             description={'An app for Task Management, Project Management, Productivity. '}
+                             technologies={'React, Redux, REST API, Typescript, Formik, Material-UI, Storybook, Unit-tests'}
                              style={todoListImg}
                     />
+
                     <Project title={'Singolo'}
-                               description={'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.'}
+                             href={'https://viktoriabakun.github.io/singolo/'}
+                               description={'A Pixel Perfect Landing Page. '}
+                             technologies={'HTML5, CSS3, JavaScript'}
                                style={singoloImg}
                 />
+
+                    <Project title={'Cards'}
+                             href={'https://github.com/m-marc/cards-nya'}
+                             technologies={'React, Redux, Typescript, REST API, Styled Components...This app is in progress'}
+                             description={'This project is being developed now by me and a team of talented creators. It will help to learn new things with the usage of cards, where, for instance, on the first side can be a word and on the other side -- a definition. '}
+                             style={cards}
+                    />
                 </div>
             </div>
         </div>

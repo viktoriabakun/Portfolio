@@ -42,7 +42,7 @@ function Main() {
                                       typingDelay={1000} cursor='_'/></p>
                 <h1><span>Bakun</span> Viktoryia</h1>
             </div>
-                <Tilt className='Tilt' options={{max: 20, speed: 2000}}>
+                <Tilt className='Tilt' options={{max: 20, speed: 4000}}>
                 <img src={me} className={s.photo} alt='me'/>
                 </Tilt>
             </div>
