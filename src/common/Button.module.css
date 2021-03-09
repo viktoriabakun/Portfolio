@@ -1,16 +1,21 @@
 .Button {
-    background-color: #4e4545;
+    background-color: #252427;
     padding: 10px 135px;
     color: #e0e0e0;
     font-weight: bold;
-    border-radius: 3px;
     text-align: center;
     transition: all 0.3s;
     cursor: pointer;
+    border: 1px solid #797777;
 }
 
 .Button:active{
     transform: scaleX(0.4) translateY(5px);
+}
+
+.Button:hover{
+    background-color: #B796D9;
+    color: black;
 }
 
 @media screen and (max-width: 529px){

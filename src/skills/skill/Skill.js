@@ -10,7 +10,10 @@ function Skill(props) {
                 <FontAwesomeIcon icon={props.icon}
                                  size={'5x'}
                                  color={'#b796d9'}/>
-                <img src={props.src}/>
+                {
+                    !props.isIcon &&
+                    <img src={props.src} alt='skill'/>
+                }
             </div>
             <h3 className={s.skillTitle}>{props.title}</h3>
             <span className={s.skillDescription}>{props.description}</span>

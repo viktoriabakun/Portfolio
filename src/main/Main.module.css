@@ -1,8 +1,20 @@
 .mainBlock {
-    height: 100vh;
-    background-color: black;
-    margin: 15px 0;
+    min-height: 100vh;
+    background-color: #101010;
     display: flex;
+    align-items: center;
+}
+
+.particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mainContainer{
+    margin-top: 100px;
 }
 
 .text {
@@ -20,7 +32,7 @@
 }
 
 .text h1 span{
-    color: black;
+    color: #171717;
     text-shadow: white 1px 1px 0, white -1px -1px 0,
     white -1px 1px 0, white 1px -1px 0;
 }
@@ -33,14 +45,23 @@
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
+    width: 450px;
     background-color: #B796D9;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1162px){
+    .mainBlock{
+        background-color: #171717;
+    }
 }
 
 @media screen and (max-width: 977px){
     .photo{
-        height: 340px;
+        width: 440px;
+    }
+    .mainBlock{
+        background-color: #171717;
     }
 }
 
@@ -48,10 +69,16 @@
     .text h1{
         font-size: 60px;
     }
+    .mainBlock{
+        background-color: #171717;
+    }
 }
 @media screen and (max-width: 529px){
     .photo{
-        height: 350px;
+        width: 340px;
+    }
+    .mainBlock{
+        background-color: #171717;
     }
 }
 
@@ -71,6 +98,5 @@
     }
     .photo{
         width: 280px;
-        height: 380px;
     }
 }

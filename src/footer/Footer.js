@@ -1,15 +1,15 @@
 import React from 'react'
 import s from './Footer.module.css'
 import sContainer from '../common/styles/Container.module.css'
-import {faGithub, faInstagram, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import codewars from '../assets/img/codewars.png'
 
 
 function Footer() {
     return (
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Viktoryia Bakun</h2>
                 <div className={s.socialNetworks}>
 
                     <a target={'blank'}
@@ -34,14 +34,13 @@ function Footer() {
                                          color={'#b796d9'}
                         />
                     </a>
-                    <a href={'#'}>
-                        <FontAwesomeIcon icon={faInstagram}
-                                         size={'2x'}
-                                         color={'#b796d9'}
-                        />
+                    <a target={'blank'}
+                       href={'https://www.codewars.com/users/viktoriabakun'}>
+                      <img src={codewars} className={s.codewarsIcon} alt='codewars'/>
                     </a>
+
                 </div>
-                <h3 className={s.copyright}>© 2020 All Rights Reserved</h3>
+                <h3 className={s.copyright}>© 2021 All Rights Reserved</h3>
             </div>
         </div>
     );

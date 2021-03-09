@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import s from './Projects.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import Project from './project/Project';
@@ -20,7 +21,8 @@ function Projects() {
     }
 
     return (
-        <div className={s.projectsBlock}>
+        <Fade>
+        <div id='projects' className={s.projectsBlock}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <Title text='Projects'/>
                 <div className={s.projects}>
@@ -40,6 +42,7 @@ function Projects() {
                 </div>
             </div>
         </div>
+        </Fade>
 
     );
 }

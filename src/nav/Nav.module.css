@@ -11,4 +11,14 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.active{
+    color: red;
+}
+
+.active:hover{
+    text-decoration: white;
 }

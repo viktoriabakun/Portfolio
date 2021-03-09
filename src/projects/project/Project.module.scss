@@ -19,10 +19,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     &::before {
       position: absolute;
       content: '';
-      background-color: black;
+      background-color: #232323;
       top: 0;
       bottom: 0;
       left: 0;
@@ -37,14 +38,17 @@
     .viewMore {
       text-decoration: none;
       color: white;
-      background-color: black;
+      background-color: #171717;
       padding: 7px 25px;
       opacity: 0.85;
       position: relative;
       z-index: 1;
+      margin: 0 auto;
     }
 
+
   }
+
   .projectTitle {
     text-transform: uppercase;
     font-size: 24px;
@@ -57,30 +61,35 @@
 }
 
 @media screen and(max-width: 450px) {
-  .project{
+  .project {
     width: 250px;
-    .projectImg{
+
+    .projectImg {
       width: 250px;
       height: 200px;
     }
-    &::before{
+
+    &::before {
       width: 200px;
     }
-    .projectTitle{
+
+    .projectTitle {
       font-size: 23px;
     }
-    .projectDescription{
+
+    .projectDescription {
       font-size: 20px;
     }
   }
 }
 
 @media screen and(min-width: 520px) {
-  .project{
+  .project {
     width: 450px;
-    .projectImg{
+
+    .projectImg {
       width: 450px;
-      height:  350px;
+      height: 350px;
     }
   }
 }
