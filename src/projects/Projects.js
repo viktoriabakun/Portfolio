@@ -31,7 +31,7 @@ function Projects() {
                 <Title text='Projects'/>
                 <div className={s.projects}>
                     <Project title={'Social network'}
-                             href={'https://github.com/viktoriabakun/Social-Network-Samurai'}
+                             href={'https://viktoriabakun.github.io/Social-Network-Samurai/'}
                              description={'A social networking service. An online platform for people to build social networks or social relationships with other people. '}
                              technologies={'React, Redux, Redux-Form, REST API, Typescript, CSS-Modules'}
                              style={socialNetworkImg}
