@@ -10,10 +10,6 @@ import React, {useEffect} from "react";
 
 function App() {
 
-    useEffect(() => {
-        document.title = "Viktoryia Bakun"
-    }, []);
-
     return (
         <div className="App">
             <Header/>
