@@ -5,9 +5,15 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
-import React from "react";
+import React, {useEffect} from "react";
+
 
 function App() {
+
+    useEffect(() => {
+        document.title = "Viktoryia Bakun"
+    }, []);
+
     return (
         <div className="App">
             <Header/>
